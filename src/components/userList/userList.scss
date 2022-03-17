@@ -1,0 +1,23 @@
+.userlist {
+  box-sizing: border-box;
+  padding: 19px 0 25px 34px;
+  width: 513px;
+  height: 100%;
+  overflow-y: scroll;
+  div + div {
+    margin-top: 22px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 17px 0;
+  }
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #BDBDBD;
+    border-radius: 5px;
+  }
+}

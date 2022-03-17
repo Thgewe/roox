@@ -1,0 +1,28 @@
+.custom-input {
+  div {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 9px;
+    color: #000000;
+    margin-bottom: 3px;
+  }
+  input {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    width: 211px;
+  }
+  .invalid {
+    border: 1px solid #D91313;
+  }
+  input:read-only {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
